@@ -7,7 +7,6 @@ class Solution:
         i = m - 1
         j = n - 1
         while j >= 0 and i >= 0:
-            print(nums2, nums1)
             if nums1[i] > nums2[j]:
                 nums1[idx] = nums1[i]
                 i -= 1
